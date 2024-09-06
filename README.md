@@ -15,6 +15,7 @@ npm create astro@latest -- --template basics
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
+It's a standard file structure.
 
 ```text
 /
