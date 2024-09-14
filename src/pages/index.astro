@@ -4,12 +4,10 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Welcome to Astro.">
   <main>
-    <h1 class="text-xl font-bold text-green-300">Hello world!</h1>
-
     <button
       type="button"
-      class="text-black bg-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-yellow-300 dark:hover:bg-yellow-700 focus:outline-none dark:focus:ring-yellow-400"
-      >Default</button
+      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-700 dark:hover:bg-yellow-700 focus:outline-none dark:focus:ring-blue-800"
+      >Workshop Button</button
     >
   </main>
 </Layout>
@@ -23,6 +21,7 @@ import Layout from "../layouts/Layout.astro";
     color: white;
     font-size: 20px;
     line-height: 1.6;
+    background-color: aliceblue;
   }
   .astro-a {
     position: absolute;
@@ -51,8 +50,8 @@ import Layout from "../layouts/Layout.astro";
     margin-bottom: 2rem;
     border: 1px solid rgba(var(--accent-light), 25%);
     background: linear-gradient(
-      rgba(var(--accent-dark), 66%),
-      rgba(var(--accent-dark), 33%)
+      rgba(var(--accent-light), 66%),
+      rgba(var(--accent-light), 33%)
     );
     padding: 1.5rem;
     border-radius: 8px;
